@@ -1,0 +1,11 @@
+data {
+  real c;
+  int<lower=0> N;
+  real y[N];
+}
+parameters {
+  real a;
+  real b;
+}
+model {
+  vector mu[2];
